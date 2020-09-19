@@ -29,7 +29,7 @@ Install Pygame
 
 `python thrive.py` in cmd
 
-## Steps of this Python project is as follows :
+## Working of this Python project is as follows :
 
 1: Take image as input from a camera.
 
