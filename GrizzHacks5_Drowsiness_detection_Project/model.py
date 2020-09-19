@@ -4,9 +4,14 @@ import shutil
 
 import matplotlib.pyplot as plt
 import numpy as np
-from keras.layers import (BatchNormalization, Conv2D, Dense, Dropout, Flatten,
-                          MaxPooling2D)
-from keras.models import Sequential, load_model
+from keras.layers import BatchNormalization
+from keras.layers import Conv2D
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.layers import Flatten
+from keras.layers import MaxPooling2D
+from keras.models import load_model
+from keras.models import Sequential
 from keras.preprocessing import image
 from keras.utils.np_utils import to_categorical
 
