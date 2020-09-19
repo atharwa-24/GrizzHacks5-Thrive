@@ -29,6 +29,20 @@ Install Pygame
 
 `python thrive.py` in cmd
 
+## Steps of this Python project is as follows :
+
+1: Take image as input from a camera.
+
+2: Create a Region of Interest (ROI) by detecting the face of the image.
+
+3: Then after that detect the eyes from the image.
+
+4: Feed it to the classifier.
+
+5: Classifier will categorize whether eyes are open or closed.
+
+6: Calculate score.
+
 ## Contributors :sparkles:
 <!-- readme: contributors -start --> 
 <table>
@@ -45,6 +59,13 @@ Install Pygame
             <img src="https://avatars3.githubusercontent.com/u/60438083?v=4" width="100;" alt="suhas-kadu"/>
             <br />
             <sub><b>Suhas Kadu</b></sub>
+        </a>
+    </td>    
+    <td align="center">
+        <a href="https://github.com/Viraj-Kadlag05">
+            <img src="https://avatars0.githubusercontent.com/u/70571553?s=400&u=510c3a29b2747764abc61c5109f6922f6f557fc7&v=4" width="100;" alt="Viraj-Kadlag05"/>
+            <br />
+            <sub><b>Viraj Kadlag</b></sub>
         </a>
     </td></tr>
 </table>
