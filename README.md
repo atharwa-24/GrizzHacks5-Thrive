@@ -5,7 +5,9 @@
 
 ## Prerequisites :
 
-The requirement for this Python project is a webcam through which we will capture images. You need to have Python (3.6 version recommended) installed on your system, then using pip, you can install the necessary packages.
+The requirement for this Python project is a webcam through which we will
+capture images. You need to have Python (3.6 version recommended) installed on
+your system, then using pip, you can install the necessary packages.
 
 ## Setup
 
@@ -44,7 +46,8 @@ Install Pygame
 6: Calculate score.
 
 ## Contributors :sparkles:
-<!-- readme: contributors -start --> 
+
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
@@ -70,4 +73,3 @@ Install Pygame
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
-
