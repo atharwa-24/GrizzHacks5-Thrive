@@ -27,7 +27,7 @@ Install Pygame
 
 ## Run
 
-`python b�drowsiness detection.pyb�` in cmd
+`python thrive.py` in cmd
 
 ## Contributors :sparkles:
 <!-- readme: contributors -start --> 
