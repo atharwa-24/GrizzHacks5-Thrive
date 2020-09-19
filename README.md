@@ -29,3 +29,6 @@ Install Pygame
 
 `python “drowsiness detection.py”` in cmd
 
+## Contributors :sparkles:
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
