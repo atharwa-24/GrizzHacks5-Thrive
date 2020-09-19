@@ -5,13 +5,15 @@
 
 ## Purpose of the project :
 
-                       Before going to the detailed coding part and setup, we want to tell you about the pupose of our project. Due to the pandemic situation the world facing now, every student is on the online learning mode, Right? Now, all we know that students get bored after sometime during the online lectures and feels a bit tired and lazy. The same is for the conferences. 
+                       Before going to the detailed coding part and setup, we want to tell you about the pupose of our project. Due to the pandemic situation the world facing now, every student is on the online learning mode, Right? Now, all we know that students get bored after sometime during the online lectures and feels a bit tired and lazy. The same is for the conferences.
                        So, we are came up with solution of this real problem. This project helps us to be alert and attentive in online conferences, lectures. We can keep this active while attending an important conference, a webinar or anything where we want to focus on screen in order to get most of it. We will build a system using Python, OpenCV, and Keras.
-                       
- 
+
+
 ## Prerequisites :
 
-The requirement for this Python project is a webcam through which we will capture images. You need to have Python (3.6 version recommended) installed on your system, then using pip, you can install the necessary packages.
+The requirement for this Python project is a webcam through which we will
+capture images. You need to have Python (3.6 version recommended) installed on
+your system, then using pip, you can install the necessary packages.
 
 ## Setup
 
@@ -50,7 +52,8 @@ Install Pygame
 6: Calculate score.
 
 ## Contributors :sparkles:
-<!-- readme: contributors -start --> 
+
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
@@ -76,4 +79,3 @@ Install Pygame
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
-
