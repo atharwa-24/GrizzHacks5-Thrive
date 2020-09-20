@@ -1,4 +1,4 @@
-# [WIP]GrizzHacks5-Thrive
+# GrizzHacks5-Thrive
 
 [![License](https://img.shields.io/github/license/atharwa-24/GrizzHacks5-Thrive-?logo=github)](https://github.com/atharwa-24/GrizzHacks5-Thrive-/blob/develop/LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.6-blue.svg?logo=python)](https://www.python.org/downloads/release/python-360/)                      
