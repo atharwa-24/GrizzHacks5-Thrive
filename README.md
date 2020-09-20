@@ -77,7 +77,7 @@ Install Pygame
             <br />
             <sub><b>Suhas Kadu</b></sub>
         </a>
-    </td>    
+    </td>
     <td align="center">
         <a href="https://github.com/Viraj-Kadlag05">
             <img src="https://avatars0.githubusercontent.com/u/70571553?s=400&u=510c3a29b2747764abc61c5109f6922f6f557fc7&v=4" width="100;" alt="Viraj-Kadlag05"/>
