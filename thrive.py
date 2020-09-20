@@ -37,7 +37,7 @@ while(True):
     left_eye = leye.detectMultiScale(gray)
     right_eye =  reye.detectMultiScale(gray)
 
-    cv2.rectangle(frame, (0,height-50) , (200,height) , (0,0,0) , thickness=cv2.FILLED )
+    cv2.rectangle(frame, (0,height-50) , (270,height) , (0,0,0) , thickness=cv2.FILLED )
 
     for (x,y,w,h) in faces:
         cv2.rectangle(frame, (x,y) , (x+w,y+h) , (100,100,100) , 1 )
@@ -74,17 +74,18 @@ while(True):
 
     if(rpred[0]==0 and lpred[0]==0):
         score=score+1
-        cv2.putText(frame,"Closed",(10,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
-    # if(rpred[0]==1 or lpred[0]==1):
-    else:
-        score=score-1
-        cv2.putText(frame,"Open",(10,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
+        cv2.putText(frame,"Wake-up!",(10,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
+    
+    elif(rpred == 1 and rpred==1):
+      score = -1
+      cv2.putText(frame,"Safe",(10,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
+
     
         
     if(score<0):
         score=0   
-    cv2.putText(frame,'Score:'+str(score),(100,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
-    if(score>15):
+    cv2.putText(frame,'   Score:'+str(score),(100,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
+    if(score>30):
         #person is feeling sleepy so we beep the alarm
         cv2.imwrite(os.path.join(path,'image.jpg'),frame)
         try:
